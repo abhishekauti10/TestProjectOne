@@ -6,11 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 //abhishek auti
+
+
 public class OpeningWebDriver {
 
 	public static void main(String[] args) {
 		
-		WebDriver driver = new ChromeDriver();    						// ctrl + space = suggestion
+		WebDriver driver = new ChromeDrver();    						// ctrl + space = suggestion
 		
 		
 		driver.get("https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.24.0");
