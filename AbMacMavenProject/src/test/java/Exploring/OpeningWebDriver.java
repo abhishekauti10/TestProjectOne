@@ -12,7 +12,7 @@ public class OpeningWebDriver {
 
 	public static void main(String[] args) {
 		
-		WebDriver driver = new ChromeDrver();    						// ctrl + space = suggestion
+		WebDriver driver = new ChromeDriver();    						// ctrl + space = suggestion
 		
 		
 		driver.get("https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.24.0");
